@@ -4,7 +4,7 @@ lang: en-US
 description: a markdown-it plugin to better supporting image lazy loading
 image: https://picsum.photos/536/354?random&date=2019-09-21
 date: 2019-09-21
-vssue-title: vuepress-plugin-img-lazy
+vssue-title: hello world
 tags:
   - vue
   - vuepress
@@ -12,7 +12,7 @@ categories:
   - documentation
 ---
 
-> a vuepress plugin to better supporting image lazy loading
+> a vuepress 
 
 <!-- more -->
 

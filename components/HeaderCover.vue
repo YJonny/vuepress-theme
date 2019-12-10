@@ -5,12 +5,12 @@
     class="flex-ycc header-cover"
   >
     <h1 class="cover-title">
-      <img-lazy
+      <!-- <img-lazy
         v-if="$themeConfig.logo"
         v-show="$isHome"
         :src="$themeConfig.logo"
         class="title-img"
-      />
+      /> -->
       <span v-if="coverTitle" class="title-text">{{ coverTitle }}</span>
     </h1>
     <h2 class="cover-text">{{ $site.description }}</h2>
@@ -72,7 +72,7 @@ export default {
       overflow-wrap break-word
   .cover-text
     margin-top .5rem
-    font-size 1.2rem
+    font-size 2.2rem
     color $whiteColor
 @media (max-width $phoneWidth)
   .header-cover

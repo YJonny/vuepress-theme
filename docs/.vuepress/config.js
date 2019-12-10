@@ -92,6 +92,36 @@ module.exports = {
   },
   plugins: [
     'img-lazy',
-    'reading-progress'
+    'reading-progress',
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'tip',
+        // defaultTitle: {
+        //   '/': 'TIP',
+        //   '/zh/': '提示',
+        // },
+      },
+    ],
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'warning',
+        // defaultTitle: {
+        //   '/': 'WARNING',
+        //   '/zh/': '警告',
+        // },
+      },
+    ],
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'danger',
+        // defaultTitle: {
+        //   '/': 'DANGER',
+        //   '/zh/': '危险',
+        // },
+      },
+    ],
   ]
 }

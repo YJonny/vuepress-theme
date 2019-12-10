@@ -3,13 +3,13 @@
     <div class="header-navbar">
       <div class="flex-xbc main header-nav">
         <div class="nav-link">
-          <router-link
+          <!-- <router-link
             v-if="$themeConfig.logo"
             :to="$localePath"
             class="inblock link-logo"
           >
             <img-lazy :src="$themeConfig.logo" class="logo-img" alt="logo" />
-          </router-link>
+          </router-link> -->
           <nav class="link-list">
             <nav-link
               v-for="(item, index) in $themeConfig.nav"

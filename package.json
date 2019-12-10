@@ -1,16 +1,19 @@
 {
-  "name": "vuepress-theme-ououe",
+  "name": "YJonny.github.io",
   "version": "1.4.1",
   "main": "index.js",
   "description": "A blog theme for VuePress by tolking",
-  "author": "tolking <qw13131wang@gmail.com>",
+  "author": "Y.Jonny",
   "license": "MIT",
-  "repository": "https://github.com/tolking/vuepress-theme-ououe",
-  "bugs": {
-    "url": "https://github.com/tolking/vuepress-theme-ououe/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YJonny/YJonny.github.io.git"
   },
-  "homepage": "https://github.com/tolking/vuepress-theme-ououe",
-  "doc": "https://tolking.github.io/vuepress-theme-ououe",
+  "bugs": {
+    "url": "https://github.com/YJonny/YJonny.github.io.git/issues"
+  },
+  "homepage": "https://github.com/YJonny/YJonny.github.io.git",
+  "doc": "https://github.com/YJonny/YJonny.github.io.git",
   "keywords": [
     "vue",
     "vuepress",
@@ -25,7 +28,8 @@
     "serve": "vuepress dev examples",
     "build": "vuepress build examples",
     "dev:docs": "vuepress dev docs",
-    "build:docs": "vuepress build docs"
+    "build:docs": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "dependencies": {
     "@vuepress/plugin-back-to-top": "^1.0.1",
@@ -36,6 +40,7 @@
     "css-prefers-color-scheme": "^3.1.1",
     "vuepress": "^1.0.1",
     "vuepress-plugin-blog-multidir": "^1.0.5",
+    "vuepress-plugin-container": "^2.1.2",
     "vuepress-plugin-img-lazy": "^1.0.0",
     "vuepress-plugin-reading-progress": "^1.0.8"
   },
