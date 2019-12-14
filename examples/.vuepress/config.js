@@ -63,30 +63,30 @@ module.exports = {
       'vuepress-plugin-container',
       {
         type: 'tip',
-        // defaultTitle: {
-        //   '/': 'TIP',
-        //   '/zh/': '提示',
-        // },
+        defaultTitle: {
+          '/': '提示',
+          '/zh/': '提示',
+        },
       },
     ],
     [
       'vuepress-plugin-container',
       {
         type: 'warning',
-        // defaultTitle: {
-        //   '/': 'WARNING',
-        //   '/zh/': '警告',
-        // },
+        defaultTitle: {
+          '/': '警告',
+          '/zh/': '警告',
+        },
       },
     ],
     [
       'vuepress-plugin-container',
       {
         type: 'danger',
-        // defaultTitle: {
-        //   '/': 'DANGER',
-        //   '/zh/': '危险',
-        // },
+        defaultTitle: {
+          '/': '危险',
+          '/zh/': '危险',
+        },
       },
     ],
   ]
